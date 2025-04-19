@@ -1,0 +1,82 @@
+
+.carousel{
+  overflow: hidden;
+  width: 90%;
+  margin-top: 70px ;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  /* border: 3px solid red; */
+  
+  
+}
+.wrap{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 460px;
+  justify-items: stretch;
+  animation: slide 20s linear infinite;
+  /* border: 3px solid red; */
+  
+}
+.wrap img{
+width: 420px;
+height: 350px;
+border-radius: 20px;
+object-fit: fill;
+}
+.wrap img:hover{
+  scale: 1.02;
+
+  }
+@keyframes slide{
+  to{
+    translate: calc(-4 * 400px);
+  }
+}
+
+/* @media (min-width: 475px) {
+  .carousel{
+    overflow: hidden;
+    width: 40%;
+    margin: auto;
+    
+  }
+  .wrap{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 300px;
+    justify-items: stretch;
+    animation: slide 15s linear infinite;
+  }
+  .wrap img{
+  width: 450px;
+  height: 300px;border-radius: 20px;
+  object-fit: cover;
+  }
+}
+  @media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+} */

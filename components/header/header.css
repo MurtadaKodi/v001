@@ -1,0 +1,40 @@
+
+.app-header{
+  width: 100vw;
+  
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #01032e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  
+  
+}
+
+.navbar a {
+  float: left;
+  margin-left: 40px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  background: rgba(255, 0, 0, 0.151) transparent;
+transition: ease .2s;
+}
+
+.navbar a:hover {
+  
+  border: .5px solid rgba(255, 255, 255, 0.344);
+  border-radius: 50px;
+
+  
+}
+

@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+
+.container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature a{
+  cursor: pointer;
+  
+
+
+}
+.archaeoligical{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.card h3{
+  margin: 1rem;
+  color: white;
+  
+}
+.ages-title{
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+
+.column {
+
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+  gap: 20px !important;
+
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+
+  gap: 10px;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  
+  
+}
+
+/* Responsive columns */
+@media screen and (max-width: 640px) {
+  .column {
+    width: 90%;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #222 transparent;
+  border: .01px solid rgb(186, 184, 180);
+  border-radius: 10px;
+  box-shadow: -10px -19px 15px -3px rgba(179, 175, 175, 0.1);
+  /* border: 2px solid rgb(217, 255, 0); */
+  
+}
+.card:hover{
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* @media (max-width: 390px){
+  .profile-card {
+    width: 100% !important;
+  
+    border: 2px solid red;
+  }
+}
+@media (max-width: 475px) {
+  .profile-card {
+    width: 90%;
+  }
+  .profile-picture {
+    width: 80%;
+    height: 80%;
+  }
+  .profile-description {
+    margin: 5px;
+    line-height: 30px;
+    color: #ccc;
+    font-size: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .profile-card {
+    width: 90%;
+  }
+  .profile-picture {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .profile-card {
+    width: 43%;
+  }
+} */

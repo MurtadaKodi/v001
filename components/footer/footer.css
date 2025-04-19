@@ -1,0 +1,99 @@
+
+.footer{
+  display: block;
+  height:  110px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom:1rem ;
+  background: rgba(0, 0, 255, 0.164);;
+  
+}
+.footer p{
+  display: block;
+position: relative;
+
+padding-top:0 ;
+font-size: 12px;
+  
+}
+.footer p span{
+color: #1877f2;
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.footer-list{
+  
+  padding: 0;
+  list-style-type: none;
+
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+
+}
+.list{
+  margin-left: 20px;
+  padding: 2px;
+  height: 80px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.fa-brands{
+  color: #fff;
+  font-size: 30px;
+
+}
+.fa-facebook:hover{
+  font-size: 50px;
+  transition: 0.3s;
+  color: #1877f2;
+  background: #fff;
+  padding: 1px;
+  border-radius: 50%;
+  box-shadow: 10px 1px 150px rgba(24, 119, 242, 1);
+}
+.fa-instagram:hover{
+  font-size: 40px;
+  transition: 0.3s;
+  color: #fff;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  padding: 10px 15px;
+  border-radius: 50%;
+  box-shadow: 10px 1px 150px rgb(220, 86, 217);
+}
+.fa-x-twitter:hover{
+  font-size: 30px;
+  transition: 0.3s;
+  color: #fff;
+  
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 10px 1px 150px rgb(255, 255, 255);
+}
+.fa-whatsapp:hover{
+  font-size: 30px;
+  transition: 0.3s;
+  color: #fff;
+  background: #25d366;
+  padding: 10px 15px;
+  border-radius: 50%;
+  box-shadow: 10px 1px 150px rgb(45, 228, 97);
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin:2rem;
+  gap:2rem;
+  
+}
