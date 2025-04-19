@@ -1,0 +1,171 @@
+.main {
+  display: block;
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: red; */
+}
+
+.slider-r {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 28px;
+}
+
+.main-site {
+  gap: 2rem;
+  display: flex;
+  width: 95vw;
+
+  margin: 20px auto;
+}
+
+.site-l {
+  width: 60%;
+  height: 775px;
+  /* border: 0.2px solid rgba(255, 255, 255, 0.223); */
+  border-radius: 28px;
+}
+.site-l h1 {
+  background: rgba(0, 0, 255, 0.164);
+  text-align: center;
+  font-size: 36px;
+  justify-content: start;
+  padding: 5px;
+}
+.site-container{
+  column-count: 2;
+  column-rule: 2px solid rgba(255, 255, 255, 0.08);
+  overflow: auto;
+}
+.site-container p {
+  text-align: justify;
+  font-size: 22px;
+  justify-content: start;
+  padding: 15px;
+}
+.site-r {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 2px;
+  text-align: center;
+  display: inline-block;
+  width: 35%;
+  height: 800px;
+  /* border: 2px solid red; */
+  border-radius: 28px;
+}
+.site-r-t {
+  margin: 10px auto;
+  width: 100%;
+  border: none;
+  height: 350px;
+  border-radius: 28px;
+}
+.site-r-b {
+  height: 400px;
+  width: 97%;
+  margin: auto;
+  justify-content: center;
+  border: none;
+}
+.auto-slider{
+  height: 100%;
+  box-shadow: 5px 5px 5px gray;
+  background-size: 100%;
+  animation: slider 25s ease-out infinite;
+  border-radius: 40px;
+  /* border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%; */
+}
+@keyframes slider{
+  0%{background-image: url(https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/17709_cychyz.jpg);}
+  25%{background-image: url(https://res.cloudinary.com/dmklduciw/image/upload/v1691319692/WebSite%20Images/Alzubara%20image/25731_ytgthb.jpg);}
+  50%{background-image: url(https://res.cloudinary.com/dmklduciw/image/upload/v1691319695/WebSite%20Images/Alzubara%20image/905_s8jbqq.jpg);}
+  75%{background-image: url(https://res.cloudinary.com/dmklduciw/image/upload/v1691319693/WebSite%20Images/Alzubara%20image/56251_1_rltji6.jpg);}
+  100%{background-image: url(https://res.cloudinary.com/dmklduciw/image/upload/v1691319694/WebSite%20Images/Alzubara%20image/44879_mpzfnr.jpg);}
+
+}
+.site-r-t iframe {
+  margin: auto;
+  padding: 2px;
+  width: 97%;
+  height: 350px;
+  border-radius: 28px;
+}
+.site-footer {
+  width: 100vw;
+}
+
+
+
+
+
+
+
+
+/* overlay card */
+/* SITE CARD */
+.card-container {
+  width: 95%;
+  height: 320px;
+  justify-content: center;
+  margin:40px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* border: 2px solid rgb(21, 0, 255); */
+}
+.overlay-container {
+  border: 2px solid rgba(255, 255, 255, 0.306);
+  position: relative;
+  width: 22%;
+  height: 300px;
+  border-radius: 40px;
+  /* border: 2px solid red; */
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #02090c;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+line-height: 2;
+padding: .5rem;
+
+  transform: translate(-50%, -50%);
+  text-align: left;
+  
+}
